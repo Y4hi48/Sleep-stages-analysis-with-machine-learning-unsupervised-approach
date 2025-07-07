@@ -1,0 +1,21 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[116] biber-MSWIN64:340> INFO - === 
+[157] Biber.pm:419> INFO - Reading 'main.bcf'
+[275] Biber.pm:979> INFO - Found 23 citekeys in bib section 0
+[288] Biber.pm:4419> INFO - Processing section 0
+[300] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[357] bibtex.pm:1713> INFO - LaTeX decoding ...
+[392] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[546] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[546] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[548] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[548] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[570] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[584] bbl.pm:763> INFO - Output to main.bbl
+[584] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\exe\AppData\Local\Temp\biber_tmp_2Mrc\33e59b5ca9ec342068223d604c3f8d55_11680.utf8, line 45, warning: 288 characters of junk seen at toplevel
+[584] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\exe\AppData\Local\Temp\biber_tmp_2Mrc\33e59b5ca9ec342068223d604c3f8d55_11680.utf8, line 65, warning: 639 characters of junk seen at toplevel
+[584] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\exe\AppData\Local\Temp\biber_tmp_2Mrc\33e59b5ca9ec342068223d604c3f8d55_11680.utf8, line 90, warning: 116 characters of junk seen at toplevel
+[584] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\exe\AppData\Local\Temp\biber_tmp_2Mrc\33e59b5ca9ec342068223d604c3f8d55_11680.utf8, line 106, warning: 236 characters of junk seen at toplevel
+[584] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\exe\AppData\Local\Temp\biber_tmp_2Mrc\33e59b5ca9ec342068223d604c3f8d55_11680.utf8, line 127, warning: 284 characters of junk seen at toplevel
+[584] Biber.pm:133> INFO - WARNINGS: 5

@@ -1,0 +1,85 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Acknowledgements}{i}{Doc-Start}%
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {french}{}\relax 
+\babel@toc {english}{}\relax 
+\contentsline {section}{List of Abbreviations}{iv}{section*.1}%
+\contentsline {section}{General Introduction}{1}{section*.5}%
+\contentsline {section}{\numberline {1}Chapter 1: Project Context and Methodology}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Host Organization Presentation}{3}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Institut de Neurosciences des Systèmes}{3}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Research Teams at INS}{4}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Principal Achievements of INS}{5}{subsubsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.2}Project Presentation}{6}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Problem Statement}{6}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Project Objectives}{7}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Research Questions and Methodology}{7}{subsubsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.3}Project Management}{8}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}CRISP-DM Methodology}{8}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Scheduling and Timeline}{11}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}GANTT Chart}{11}{subsubsection.1.3.3}%
+\contentsline {section}{\numberline {2}Chapter 2 : Literature Review}{14}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Neuroscience Notions}{14}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Sleep Physiology and Architecture}{14}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Signal Processing Methods for Neural Data}{16}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Neurophysiological Signal Measurement and Analysis}{18}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}EEG Signal Characteristics and Analysis}{18}{subsubsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.2}ML for Sequential Data}{19}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Unsupervised Learning}{19}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Bidirectional Long Short-Term Memory (BiLSTM)}{20}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Time Series Transformers}{20}{subsubsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.3}Review of Existing Literature}{21}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Foundational Approaches to Time Series Analysis and Data Streaming}{21}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Machine Learning Models and Neural Architectures for Sleep Classification}{22}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Dynamic Mode Decomposition and Physics-Informed Methods}{23}{subsubsection.2.3.3}%
+\contentsline {section}{\numberline {3}Chapter 3 : Data Understanding and Processing}{26}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Data Description and Exploratory Analysis}{26}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Rat Dataset: Long-term Continuous Monitoring}{26}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Human Dataset: Comprehensive Polysomnographic Analysis}{27}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Exploratory Data Analysis: Multi-Domain Signal Characterization}{28}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}Time Series Analysis: Unveiling Temporal Dependencies Through ACF and PACF}{35}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Autocorrelation Function Analysis: Revealing System Memory and Oscillatory Structure}{35}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Partial Autocorrelation Function Analysis: Isolating Direct Temporal Relationships}{36}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Implications for Feature Engineering and Advanced Analytical Methods}{36}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Data Cleaning and Preprocessing: Ensuring Signal Integrity and Quality}{38}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Intelligent Outlier Detection and Correction}{39}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Advanced Filtering and Spectral Enhancement}{39}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Standardization and Normalization: Enabling Cross-Modal Analysis}{41}{subsubsection.3.3.3}%
+\contentsline {section}{\numberline {4}Chapter 4: Data Preparation and Feature Engineering: Advanced Sequential Processing}{43}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Signal Sampling and Sequential Architecture Design}{43}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Adaptive Signal Segmentation and Temporal Windowing}{43}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Sequential Object Construction and Temporal Context Preservation}{45}{subsubsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.2}Advanced Mathematical Feature Extraction: Dynamic Mode Decomposition Framework}{46}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Overview of DMD in Physiology and Neuroscience Contexts}{47}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}capturing nonliner Dynamics}{48}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}interpretation and conclusion}{49}{subsubsection.4.2.3}%
+\contentsline {section}{\numberline {5}Chapter 5: Modeling}{52}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Clustering over sliding windows}{52}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Pipeline}{52}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Results}{53}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}Analysis}{53}{subsubsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.2}Hidden Markov Model}{56}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Pipeline}{56}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Results}{57}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}Analysis}{58}{subsubsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.3}BiLSTM Model Pipeline}{62}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Pipeline}{62}{subsubsection.5.3.1}%
+\contentsline {paragraph}{\numberline {5.3.1.1}Advanced Data Preprocessing and Signal Conditioning}{62}{paragraph.5.3.1.1}%
+\contentsline {paragraph}{\numberline {5.3.1.2}Dynamic Mode Decomposition Feature Engineering}{63}{paragraph.5.3.1.2}%
+\contentsline {paragraph}{\numberline {5.3.1.3}Bidirectional LSTM Architecture and Temporal Modeling}{63}{paragraph.5.3.1.3}%
+\contentsline {subsubsection}{\numberline {5.3.2}Results}{65}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.3}Analysis}{66}{subsubsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.4}Time Series Transformer Model Pipeline}{71}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Pipeline}{71}{subsubsection.5.4.1}%
+\contentsline {paragraph}{\numberline {5.4.1.1}Advanced Multi-Channel Data Preprocessing}{71}{paragraph.5.4.1.1}%
+\contentsline {paragraph}{\numberline {5.4.1.2}Extended Dynamic Mode Decomposition Feature Engineering}{72}{paragraph.5.4.1.2}%
+\contentsline {paragraph}{\numberline {5.4.1.3}Sequential Multi-Channel Transformer Architecture}{72}{paragraph.5.4.1.3}%
+\contentsline {subsubsection}{\numberline {5.4.2}Results}{76}{subsubsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.3}Analysis}{78}{subsubsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.5}Synthesis and Discussion}{83}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Comparative Analysis of Methodological Performance}{84}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.2}Methodological Innovations and Technical Advances}{85}{subsubsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.3}Clinical Implications and Scientific Discoveries}{86}{subsubsection.5.5.3}%
+\contentsline {subsubsection}{\numberline {5.5.4}Limitations and Future Research Directions}{87}{subsubsection.5.5.4}%
+\contentsline {section}{General Conclusion}{88}{table.caption.51}%
