@@ -393,7 +393,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact & Support
 
-- **Project Maintainer**: [Your Name](mailto:your.email@institution.edu)
+- **Project Maintainer**: [Y4hi48](mailto:yahia0854@gmail.com)
 - **Institution**: Institut de Neurosciences des Systèmes (INS)
 - **Issues**: [GitHub Issues](https://github.com/Y4hi48/Sleep-stages-analysis-with-machine-learning-unsupervised-approach/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/Y4hi48/Sleep-stages-analysis-with-machine-learning-unsupervised-approach/discussions)
