@@ -1,0 +1,141 @@
+ Successfully extracted clustering results:
+  Number of cluster windows: 5,748
+  Window size: 30s
+  Step size: 15.0s
+  Total duration covered: 86235.00s (23.95h)
+  Unique clusters: [0 1 2 3]
+  Cluster distribution: {0: 500, 1: 2342, 2: 1874, 3: 1032}
+
+=== Cluster Distribution Analysis ===
+Total number of windows: 5748
+Number of unique clusters: 4
+
+Cluster Counts and Proportions:
+Cluster 0: 500 windows (8.7%) - 4.17 hours
+Cluster 1: 2342 windows (40.7%) - 19.52 hours
+Cluster 2: 1874 windows (32.6%) - 15.62 hours
+Cluster 3: 1032 windows (18.0%) - 8.60 hours
+
+=== Continuous Duration Analysis ===
+
+Cluster 0:
+  Number of continuous segments: 438
+  Mean duration: 34.2s (0.6min)
+  Median duration: 30.0s (0.5min)
+  Max duration: 120.0s (2.0min)
+  Min duration: 30.0s (0.5min)
+
+Cluster 1:
+  Number of continuous segments: 1254
+  Mean duration: 56.0s (0.9min)
+  Median duration: 30.0s (0.5min)
+  Max duration: 330.0s (5.5min)
+  Min duration: 30.0s (0.5min)
+
+Cluster 2:
+  Number of continuous segments: 1239
+  Mean duration: 45.4s (0.8min)
+  Median duration: 30.0s (0.5min)
+  Max duration: 210.0s (3.5min)
+  Min duration: 30.0s (0.5min)
+
+Cluster 3:
+  Number of continuous segments: 751
+  Mean duration: 41.2s (0.7min)
+  Median duration: 30.0s (0.5min)
+  Max duration: 210.0s (3.5min)
+  Min duration: 30.0s (0.5min)
+
+Analyzing frequency bands (optimized version)...
+
+Band Analysis Results:
+    cluster              band    mean_power     std_power  log_power
+0         0  Delta (0.5-4 Hz)  1.011894e-04  2.363292e-05  -3.994865
+1         0    Theta (4-8 Hz)  4.195433e-05  1.935415e-06  -4.377223
+2         0   Alpha (8-13 Hz)  2.374756e-05  1.735789e-06  -4.624381
+3         0   Beta (13-30 Hz)  4.151869e-06  2.604058e-07  -5.381756
+4         0  Gamma (30-50 Hz)  8.700755e-07  9.210956e-08  -6.060443
+5         1  Delta (0.5-4 Hz)  1.058354e-04  1.400334e-05  -3.975369
+6         1    Theta (4-8 Hz)  4.196308e-05  2.688861e-06  -4.377133
+7         1   Alpha (8-13 Hz)  2.289403e-05  2.329707e-06  -4.640278
+8         1   Beta (13-30 Hz)  4.217239e-06  2.459572e-07  -5.374972
+9         1  Gamma (30-50 Hz)  8.463026e-07  2.446885e-08  -6.072474
+10        2  Delta (0.5-4 Hz)  1.075292e-04  6.412176e-06  -3.968473
+11        2    Theta (4-8 Hz)  4.185820e-05  2.918429e-06  -4.378219
+12        2   Alpha (8-13 Hz)  2.338032e-05  1.027668e-06  -4.631149
+13        2   Beta (13-30 Hz)  4.341551e-06  6.071747e-07  -5.362355
+14        2  Gamma (30-50 Hz)  8.497647e-07  4.987557e-08  -6.070701
+15        3  Delta (0.5-4 Hz)  1.042803e-04  1.806936e-05  -3.981798
+16        3    Theta (4-8 Hz)  4.224138e-05  3.707020e-06  -4.374262
+17        3   Alpha (8-13 Hz)  2.233187e-05  3.573837e-06  -4.651075
+18        3   Beta (13-30 Hz)  4.147945e-06  3.557034e-07  -5.382167
+19        3  Gamma (30-50 Hz)  8.499367e-07  3.706185e-08  -6.070613
+
+=== COMPREHENSIVE ANALYSIS SUMMARY ===
+
+1. CLUSTER DISTRIBUTION:
+ cluster  count  proportion  duration_hours
+       0    500    8.698678        4.166667
+       1   2342   40.744607       19.516667
+       2   1874   32.602644       15.616667
+       3   1032   17.954071        8.600000
+
+2. CONTINUOUS DURATION STATISTICS:
+ cluster  segment_count  mean_duration  median_duration  max_duration  min_duration
+       0            438      34.246575             30.0           120            30
+       1           1254      56.028708             30.0           330            30
+       2           1239      45.375303             30.0           210            30
+       3            751      41.225033             30.0           210            30
+
+3. FREQUENCY BAND DOMINANCE:
+Cluster 0: Dominant band = Delta (0.5-4 Hz) (Power: 1.01e-04)
+Cluster 1: Dominant band = Delta (0.5-4 Hz) (Power: 1.06e-04)
+Cluster 2: Dominant band = Delta (0.5-4 Hz) (Power: 1.08e-04)
+Cluster 3: Dominant band = Delta (0.5-4 Hz) (Power: 1.04e-04)
+
+4. KEY FINDINGS:
+- Total recording duration: 23.95 hours
+- Number of cluster transitions: 3681
+- Most frequent cluster: 1
+- Longest continuous segment: 5.5 minutes
+- Average segment duration: 0.7 minutes
+- Cluster stability (1-transition_rate): 0.359
+
+=== CLUSTER TRANSITION ANALYSIS ===
+
+Transition Matrix (Raw Counts):
+         To 0    To 1   To 2   To 3
+From 0   62.0   163.0  155.0  120.0
+From 1  154.0  1088.0  771.0  329.0
+From 2  158.0   778.0  635.0  302.0
+From 3  125.0   313.0  313.0  281.0
+
+Transition Probabilities:
+         To 0   To 1   To 2   To 3
+From 0  0.124  0.326  0.310  0.240
+From 1  0.066  0.465  0.329  0.140
+From 2  0.084  0.415  0.339  0.161
+From 3  0.121  0.303  0.303  0.272
+
+=== TRANSITION STATISTICS ===
+Total transitions: 5747
+Self-transitions (no change): 2066
+Stability ratio: 0.359
+
+Most common transitions:
+  0 -> 0: 62 times (0.124)
+  0 -> 1: 163 times (0.326)
+  0 -> 2: 155 times (0.310)
+  0 -> 3: 120 times (0.240)
+  1 -> 0: 154 times (0.066)
+  1 -> 1: 1088 times (0.465)
+  1 -> 2: 771 times (0.329)
+  1 -> 3: 329 times (0.140)
+  2 -> 0: 158 times (0.084)
+  2 -> 1: 778 times (0.415)
+  2 -> 2: 635 times (0.339)
+  2 -> 3: 302 times (0.161)
+  3 -> 0: 125 times (0.121)
+  3 -> 1: 313 times (0.303)
+  3 -> 2: 313 times (0.303)
+  3 -> 3: 281 times (0.272)
